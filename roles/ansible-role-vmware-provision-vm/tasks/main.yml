@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-vmware-provision-vm
+
+- name: Provisioning Virtual Machine
+  debug:
+    msg: "Provisioning Virtual Machine on VMWare"

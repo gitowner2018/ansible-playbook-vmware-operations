@@ -1,0 +1,7 @@
+---
+
+- name: VMWare Operations - Provisioning Virtual Machine
+  hosts: localhost
+
+  roles:
+    - ansible-role-vmware-provision-vm
